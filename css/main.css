@@ -560,3 +560,145 @@ body {
             }
 
         }
+
+
+        @media (max-width:360px) {
+            .hero-section {
+                padding: 10px;
+            }
+            
+            .hero-section h1 {
+                font-size: 24px;
+            }
+            
+            .hero-section p {
+                font-size: 14px;
+            }
+
+            #judul {
+                margin-bottom: 50px;
+            }
+
+            #judul h1 {
+                font-size: 24px;
+            }
+
+            .desktop {
+                display: none;
+            }
+
+            #img-mobile-keuntungan {
+                display: flex;
+                justify-content: center;
+            }
+            .mobile {
+                display: block;
+            }
+
+            #keuntungan h1 {
+                font-size: 24px;
+                text-align: center;
+            }
+            
+            #keuntungan p {
+                font-size: 14px;
+                text-align: center;
+                margin-bottom: 120px;
+            }
+
+            #text-keuntungan {
+                padding: 0px 50px;
+            }
+
+            #text-bergabung {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            #bergabung h1 {
+                margin: 30px;
+                font-size: 24px;
+                text-align: center;
+            }
+            
+            #bergabung p {
+                font-size: 14px;
+                text-align: center;
+            }
+
+            #text-bergabung {
+                padding: 0px 50px;
+            }
+
+            #bergabung-container button {
+                text-align: center;
+            }
+
+            #teknik h1 {
+                font-size: 18px;
+            }
+
+            #card-teknik {
+                width: 280px;
+                height: 70px;
+            }
+
+            #carabo h1 {
+                font-size:24px;
+            }
+            
+            #carabo p {
+                font-size: 14px;
+            }
+
+            #pemberitahuan h1 {
+                font-size: 24px;
+            }
+            
+            #pemberitahuan p {
+                font-size: 14px;
+            }
+
+            #daftar h1 {
+                font-size: 24px;
+            }
+
+            #keuntungan, #bergabung, #fasilitas, #footer, #daftar {
+                margin: 80px 0px;
+            }
+
+            #carabo-fluid {
+                padding: 80px 0px;
+            }
+
+            #fasilitas-card {
+                margin: 50px 0px;
+                padding: 0px 50px;
+            }
+
+            #text-bergabung, #text-keuntungan {
+                padding: 0px;
+            }
+
+            #keuntungan img {
+                margin:0px;
+            }
+
+            #keuntungan p {
+                margin-bottom: 50px;
+            }
+
+            .navbar-brand img {
+                height: 40px;
+            }
+
+            .hero-section button {
+                display: none;
+            }
+
+            .text-button p {
+                display: none;
+            }
+        }
